@@ -34,10 +34,12 @@ Copy code
 flutter run
 Project Structure
 
-lib: Contains the main application code.
-main.dart: The entry point of the application.
-wheel_of_fortune.dart: The main widget for the Wheel of Fortune game.
-game_controller.dart: Contains the GameController class for managing the game state.
+plaintext
+Copy code
+lib
+├── main.dart             # Entry point of the application
+├── wheel_of_fortune.dart # Main widget for the Wheel of Fortune game
+└── game_controller.dart  # Contains the GameController class for managing the game state
 How to Play
 
 Start the Game: Run the application and start the game.
@@ -56,4 +58,3 @@ Flutter: Flutter.dev
 GetX: GetX Package
 Confetti: Confetti Package
 Flutter Fortune Wheel: Flutter Fortune Wheel Package
-
