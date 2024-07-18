@@ -1,29 +1,28 @@
-# Wheel of Fortune Game
+Wheel of Fortune Game
 
-This is a Flutter-based Wheel of Fortune game built to play with students at school. It features a spinning wheel with various point values, a confetti animation for correct answers, and a scoreboard to keep track of team scores.
+This is a Wheel of Fortune game built using Flutter and GetX for state management. It is designed to be played with students in a classroom setting. The game involves spinning a wheel to earn points, with special segments like "LOSE TURN" and "BANKRUPT". The game keeps track of scores for three teams.
 
-## Features
+Features
 
-- **Spinning Wheel**: Spin the wheel to land on different point values or special items like "LOSE TURN" and "BANKRUPT".
-- **Confetti Animation**: Celebrate correct answers with a burst of confetti.
-- **Scoreboard**: Keep track of scores for three teams.
-- **Interactive Dialogs**: Confirm whether the answer was correct or not with a custom dialog.
+Spin the Wheel: Players can spin the wheel to earn points.
+Answer Dialog: After each spin, players are prompted to answer a question to determine if they should keep the points.
+Confetti Animation: A confetti animation is displayed for correct answers.
+Special Segments: The wheel includes special segments like "LOSE TURN" and "BANKRUPT".
+Three Teams: The game supports three teams and keeps track of their scores.
+Responsive UI: The UI is designed to be responsive and visually appealing.
+Getting Started
 
-## Technologies Used
+Prerequisites
+Flutter SDK: Install Flutter
+Dart SDK: Install Dart
+Installation
+Clone the Repository:
 
-- **Flutter**: The framework used to build the application.
-- **GetX**: Used for state management.
-- **flutter_fortune_wheel**: Used to create the spinning wheel.
-- **confetti**: Used to show confetti animation.
-
-## Installation
-
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/yourusername/wheeloffortune.git
-   cd wheeloffortune
-
-2. Install Dependencies:
+sh
+Copy code
+git clone https://github.com/gebertocarlos/wheeloffortune.git
+cd wheeloffortune
+Install Dependencies:
 
 sh
 Copy code
@@ -33,56 +32,28 @@ Run the App:
 sh
 Copy code
 flutter run
-Usage
+Project Structure
 
+lib: Contains the main application code.
+main.dart: The entry point of the application.
+wheel_of_fortune.dart: The main widget for the Wheel of Fortune game.
+game_controller.dart: Contains the GameController class for managing the game state.
+How to Play
+
+Start the Game: Run the application and start the game.
 Spin the Wheel: Press the "Spin" button to spin the wheel.
-Answer Confirmation: After the wheel stops, a dialog will prompt you to confirm if the answer was correct.
-Track Scores: The scoreboard will automatically update based on the wheel's outcome and your input.
-Game Rules
+Answer the Question: After the wheel stops, answer the question to determine if you keep the points.
+Next Team: The turn moves to the next team.
+Special Segments: If the wheel lands on "LOSE TURN" or "BANKRUPT", special rules apply.
+Customization
 
-Point Values: The wheel contains various point values ranging from 10 to 300.
-Special Items:
-LOSE TURN: The team loses their turn without gaining points.
-BANKRUPT: The team's score resets to 0.
-Answer Validation: After each spin, confirm if the answer was correct to award points.
-Team Rotation: The game supports three teams and rotates turns between them.
-Screenshots
+Wheel Values: Modify the wheelValues list in game_controller.dart to change the segments on the wheel.
+Team Count: The game currently supports three teams. You can modify the teamScores list and related logic in game_controller.dart to support more or fewer teams.
+UI Styling: Customize the UI elements in wheel_of_fortune.dart to match your preferences.
+Credits
 
-Add screenshots of your app here.
-
-Contributing
-
-If you would like to contribute to this project, please follow these steps:
-
-Fork the Repository:
-
-sh
-Copy code
-git clone https://github.com/yourusername/wheeloffortune.git
-Create a New Branch:
-
-sh
-Copy code
-git checkout -b feature-branch
-Make Changes and Commit:
-
-sh
-Copy code
-git commit -m "Add your message here"
-Push to the Branch:
-
-sh
-Copy code
-git push origin feature-branch
-Create a Pull Request: Go to the repository on GitHub and create a pull request.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
-
-Thanks to the Flutter and Dart community for their great tools and packages.
-Special thanks to my students for being enthusiastic participants in testing this game.
-This game was built to provide an interactive and fun way to engage with students in a classroom setting.
+Flutter: Flutter.dev
+GetX: GetX Package
+Confetti: Confetti Package
+Flutter Fortune Wheel: Flutter Fortune Wheel Package
 
