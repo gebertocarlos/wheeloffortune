@@ -47,6 +47,7 @@ lib
 ├── wheel_of_fortune.dart # Main widget for the Wheel of Fortune game
 └── game_controller.dart  # Contains the GameController class for managing the game state
 
+
 # How to Play
 
 ### Start the Game
