@@ -46,3 +46,38 @@ lib
 ├── main.dart             # Entry point of the application
 ├── wheel_of_fortune.dart # Main widget for the Wheel of Fortune game
 └── game_controller.dart  # Contains the GameController class for managing the game state
+
+# How to Play
+
+### Start the Game
+Run the application and start the game.
+
+### Spin the Wheel
+Press the "Spin" button to spin the wheel.
+
+### Answer the Question
+After the wheel stops, answer the question to determine if you keep the points.
+
+### Next Team
+The turn moves to the next team.
+
+### Special Segments
+If the wheel lands on "LOSE TURN" or "BANKRUPT", special rules apply.
+
+# Customization
+
+### Wheel Values
+Modify the `wheelValues` list in `game_controller.dart` to change the segments on the wheel.
+
+### Team Count
+The game currently supports three teams. You can modify the `teamScores` list and related logic in `game_controller.dart` to support more or fewer teams.
+
+### UI Styling
+Customize the UI elements in `wheel_of_fortune.dart` to match your preferences.
+
+# Credits
+
+- **Flutter:** [Flutter.dev](https://flutter.dev)
+- **GetX:** [GetX Package](https://pub.dev/packages/get)
+- **Confetti:** [Confetti Package](https://pub.dev/packages/confetti)
+- **Flutter Fortune Wheel:** [Flutter Fortune Wheel Package](https://pub.dev/packages/flutter_fortune_wheel)
