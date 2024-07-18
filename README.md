@@ -37,16 +37,6 @@ This is a Wheel of Fortune game built using Flutter and GetX for state managemen
 
     ```sh
     flutter run
-    ```
-
-## Project Structure
-
-```plaintext
-lib
-├── main.dart             # Entry point of the application
-├── wheel_of_fortune.dart # Main widget for the Wheel of Fortune game
-└── game_controller.dart  # Contains the GameController class for managing the game state
-
 
 # How to Play
 
